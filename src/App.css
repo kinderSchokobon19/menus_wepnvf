@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: blue;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -15,13 +17,18 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction:row;
   font-size: calc(10px + 2vmin);
   color: white;
+  z-index: 1;
+  flex-wrap: nowrap;  
+  justify-content:space-between ;
+}
+
+.snow{
+  padding: 1%;
 }
 
 .App-link {
@@ -35,4 +42,158 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg_img{
+  /* The image used */
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./pistus_img.jpeg');
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(10px); /* Safari 6.0 - 9.0 */
+  filter: blur(10px);
+}
+
+.logo_wacs{ 
+  width: 150px;
+  height: 100px;
+  object-fit:scale-down;
+  justify-content: left;
+}
+
+.container {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  min-height: 30vh; /* Occupe toute la hauteur de la page */
+}
+
+.button:hover {
+  margin: 0 10px; /* Ajoute un espacement horizontal entre les boutons */
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 20px;
+  color: rgb(255,21,110  );
+}
+
+.button{
+  background-color: rgb(255,21,110  );
+  color: white;
+  margin: 0 10px; /* Ajoute un espacement horizontal entre les boutons */
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+body {
+  overflow: visible; /* Hide both scrollbars */
+}
+
+.container_content{ 
+  min-height: 10%;
+  display: flex  ;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  justify-content:space-between ;
+}
+.content{
+  color:black ;
+  position: relative;
+  background-color: blue;  
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center; /* Centre le tableau horizontalement */
+  align-items: center;     /* Centre le tableau verticalement */             /* La hauteur est 100% de la fenêtre */
+  border-radius: 10px;
+  margin:20%;
+  margin-top: 0px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  width: 80%; /* Ajustez la largeur selon vos besoins */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  background-color: blue;
+  color: white;
+  
+  border-radius: 10px;
+}
+
+.styled-table thead tr {
+  background-color: rgb(255,21,110  ); 
+  color: #ffffff; 
+  text-align: left;
+  font-weight: bold;
+  
+}
+
+.styled-table th, .styled-table td {
+  padding: 12px 15px;
+  border: solid 1px black;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid blue;
+  
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: blue;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid rgb(255,21,110  );
+  
+  border: solid 1px black;
+}
+
+.styled-table tbody td:hover {
+  background-color: white; /* Effet au survol */ 
+  color: blue;
+  
+}
+
+.styled-table th {
+  text-align: center;
+  
+}
+
+.styled-table td {
+  text-align: center;
+  
+  border: solid 1px black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.titre{
+  font-size: 150%;
+  color:rgb(255,21,110  ); 
+  font-family: sans-serif;
 }

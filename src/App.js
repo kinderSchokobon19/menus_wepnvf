@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import { FaRegSnowflake } from "react-icons/fa";
 import './App.css';
+import logo_wacs from "./logo_wacs.png";
+import Main from "./main";
+import Snowfall from 'react-snowfall';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="App-header"> 
+        <img src={logo_wacs} alt='Logo' className='logo_wacs'/>
+        <p className="titre">Menus Wepn</p>
+        <FaRegSnowflake size={50} className="snow"/>
       </header>
+        <Main/>
     </div>
   );
 }
