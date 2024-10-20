@@ -2,6 +2,7 @@
   text-align: center;
   background-color: blue;
   min-height: 100vh;
+  min-width:100vh;
 }
 
 .App-logo {
@@ -104,6 +105,7 @@
 
 body {
   overflow: visible; /* Hide both scrollbars */
+  background-color: blue;
 }
 
 .container_content{ 
@@ -196,8 +198,4 @@ body {
   font-size: 150%;
   color:rgb(255,21,110  ); 
   font-family: sans-serif;
-}
-
-.body{
-  background-color: blue;
 }
