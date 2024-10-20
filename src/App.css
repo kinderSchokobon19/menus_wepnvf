@@ -105,6 +105,7 @@
 
 body {
   overflow: visible; /* Hide both scrollbars */
+  background-color: blue;
 }
 
 .container_content{ 
