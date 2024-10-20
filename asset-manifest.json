@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/menus_wepn/static/css/main.c9a63a2a.css",
+    "main.js": "/menus_wepn/static/js/main.d090c9e8.js",
+    "static/js/453.8d13a1bc.chunk.js": "/menus_wepn/static/js/453.8d13a1bc.chunk.js",
+    "static/media/logo_wacs.png": "/menus_wepn/static/media/logo_wacs.6aa77b8dab8e8be18943.png",
+    "static/media/pistus_img.jpeg": "/menus_wepn/static/media/pistus_img.229f66a4d2f0e74d4663.jpeg",
+    "index.html": "/menus_wepn/index.html",
+    "main.c9a63a2a.css.map": "/menus_wepn/static/css/main.c9a63a2a.css.map",
+    "main.d090c9e8.js.map": "/menus_wepn/static/js/main.d090c9e8.js.map",
+    "453.8d13a1bc.chunk.js.map": "/menus_wepn/static/js/453.8d13a1bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9a63a2a.css",
+    "static/js/main.d090c9e8.js"
+  ]
+}
